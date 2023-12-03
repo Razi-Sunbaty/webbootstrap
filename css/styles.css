@@ -1,0 +1,159 @@
+body{
+  font-family: "cursive";
+}
+#title {
+  background-color: #ffc107;
+  color: #fff;
+}
+h1{
+  font-family: 'cursive';
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/*Navigation bar*/
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "cursive";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "cursive";
+}
+
+/*Download buttons*/
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+/*title image*/
+.title-image{
+  width:21%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+@media (max-width:1120px){
+  .title-image{
+    width:60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*feature--*/
+#features{
+padding:7% 15%;
+background-color: #fff;
+position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 4%;
+}
+h3{
+  font-family: Montserrat;
+  font-weight: 700;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color:#ffc107;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+color: #ffc107;
+}
+
+
+/*testimonials--*/
+
+#testimonials{
+  text-align: center;
+  background-color:#ffc107;
+  color: #fff;
+}
+
+h2{
+  font-family: "cursive";
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+padding: 7% 15%;
+}
+
+/*press--*/
+#press{
+  background-color:#ffc107;
+  text-align:center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/*--pricing--*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3% 2%;
+
+}
+
+
+/*--call to action---*/
+#cta{
+  background-color: #ffc107;
+  padding: 7% 15%;
+  text-align: center;
+}
+#cta h3{
+  font-family: cursive;
+  font-weight:800;
+  font-size: 3rem;
+  line-height: 1.5;
+  color:#fff;
+}
+
+
+/*--footer section--*/
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icons{
+  margin: 20px 10px;
+}
